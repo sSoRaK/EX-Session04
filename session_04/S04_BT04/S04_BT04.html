@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recruit</title>
+    <link rel="stylesheet" href="./style_BT04.css" />
+  </head>
+  <body>
+    <div class="recruit">
+      <h2>Tuyển dụng</h2>
+      <div class="form-recruit">
+        <form action="#" method="post">
+          <label for="name">Họ và tên:</label><br />
+          <input
+            type="text"
+            name="name"
+            id="name"
+            class="type-input"
+            placeholder="Nhập tên của bạn"
+            required
+          /><br />
+          <label for="email">Email:</label><br />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            class="type-input"
+            placeholder="Nhập email của bạn"
+            required
+          /><br />
+          <label for="phone-number">Số điện thoại:</label><br />
+          <input
+            type="number"
+            name="phone-number"
+            id="phone-number"
+            class="type-input"
+            placeholder="Nhập số điện thoại của bạn"
+            required
+          /><br />
+          <label for="cv">CV:</label><br />
+          <input
+            type="file"
+            name="cv"
+            id="cv"
+            class="cv-input"
+            required
+          /><br />
+          <label for="mess">Tin nhắn:</label><br />
+          <textarea
+            name="mess"
+            id="mess"
+            rows="10"
+            placeholder="Nhập nội dung..."
+          ></textarea>
+          <br />
+          <input type="submit" value="Gửi" class="sumbit-button" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

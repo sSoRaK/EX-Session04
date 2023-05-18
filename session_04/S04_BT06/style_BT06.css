@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+iframe {
+  width: 600px;
+  height: 400px;
+}
+body {
+  margin-left: 50px;
+  margin-top: 30px;
+  font-family: Arial, sans-serif;
+}
+h1,
+h2,
+iframe,
+p,
+li {
+  margin-bottom: 15px;
+}
+ul {
+  margin-left: 38px;
+}
+ul > li {
+  font-weight: bold;
+}
+ol > li {
+  margin-left: 38px;
+}
+ol > li > a {
+  text-decoration: none;
+  color: black;
+}
+ol > li > a:hover {
+  color: green;
+}
